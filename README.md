@@ -11,4 +11,12 @@ Structural and Multidisciplinary Optimization, 51(1), 41-57.
 
 The codes are now freely available, please reference the relevant publications in your research work.
 
+Three types of codes:
+
+
+minV*.m = 2-D minimum volume topopt:
+  basic / reanalysis / with matrix-free reanalysis
+minW3d*.m = 3-D minimum volume topopt using MGCG solver:
+  basic / matrix-free with recycling preconditioner / matrix-free with recycling preconditioner and sensitivity monitoring
+
 Extensions and improvements are strongly encouraged!!!
