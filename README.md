@@ -13,6 +13,7 @@ The codes are now freely available, please reference the relevant publications i
 
 Three types of codes:
   1) top3d*.m = 3-D minimum compliance topopt using MGCG solver:
+  
 		1.1) basic
 		1.2) with sensitivity monitoring
 		
