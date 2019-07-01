@@ -12,11 +12,16 @@ Structural and Multidisciplinary Optimization, 51(1), 41-57.
 The codes are now freely available, please reference the relevant publications in your research work.
 
 Three types of codes:
-top3d*.m = 3-D minimum compliance topopt using MGCG solver::
-  basic / with sensitivity monitoring
-minV*.m = 2-D minimum volume topopt:
-  basic / reanalysis / with matrix-free reanalysis
-minW3d*.m = 3-D minimum volume topopt using MGCG solver:
-  basic / matrix-free with recycling preconditioner / matrix-free with recycling preconditioner and sensitivity monitoring
+  1) top3d*.m = 3-D minimum compliance topopt using MGCG solver:
+     a) basic
+     b) with sensitivity monitoring
+  2) minV*.m = 2-D minimum volume topopt:
+     a) basic
+     b) reanalysis
+     c) with matrix-free reanalysis
+  3) minW3d*.m = 3-D minimum volume topopt using MGCG solver:
+     a) basic
+     b) matrix-free with recycling preconditioner
+     c) matrix-free with recycling preconditioner and sensitivity monitoring
 
 Extensions and improvements are strongly encouraged!!!
