@@ -14,19 +14,24 @@ The codes are now freely available, please reference the relevant publications i
 Three types of codes:
   1) top3d*.m = 3-D minimum compliance topopt using MGCG solver:
   
-		1.1) basic
-		1.2) with sensitivity monitoring
+		a) basic
 		
+		b) with sensitivity monitoring
 		
-		
-  
   2) minV*.m = 2-D minimum volume topopt:
+  
      a) basic
+     
      b) reanalysis
+     
      c) with matrix-free reanalysis
+  
   3) minW3d*.m = 3-D minimum volume topopt using MGCG solver:
+     
      a) basic
+     
      b) matrix-free with recycling preconditioner
+     
      c) matrix-free with recycling preconditioner and sensitivity monitoring
 
 Extensions and improvements are strongly encouraged!!!
